@@ -1,16 +1,6 @@
 <?xml version="1.0"?>
-<robot name="olv-xbolt">
-  <link name="base_link">
-    <visual>
-      <geometry>
-        <mesh filename="package://olive_connectors_description/meshes/olv-xbolt.dae"/>
-      </geometry>
-    </visual>
-    <collision>
-      <geometry>
-        <cylinder length="0.01" radius="0.022" />
-      </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0.005" />
-    </collision>
-  </link>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="olv-xbolt-robot">
+    <xacro:include filename="$(find olive_connectors_description)/urdf/olv-xbolt.urdf.xacro" />
+    <link name="base_link"/>
+    <xacro:olv-xbolt namespace="olv-xbolt" parent_link="base_link"/>
 </robot>

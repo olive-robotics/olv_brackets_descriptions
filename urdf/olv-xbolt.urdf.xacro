@@ -12,7 +12,7 @@
         <geometry>
           <cylinder length="0.01" radius="0.022" />
         </geometry>
-        <origin rpy="0 0 0" xyz="0 0 0.005" />
+        <origin rpy="0 0 0" xyz="0 0 -0.005" />
       </collision>
     </link>
 

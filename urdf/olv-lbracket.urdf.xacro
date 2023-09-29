@@ -12,17 +12,16 @@
     <!-- Conditional translations based on mount_frame -->
     <xacro:if value="${mounting_side == 'top'}">
       <xacro:property name="body_translation" value="0 0.055 -0.024" />
-      <xacro:property name="body_rotation" value="1.57 0 0" />
+      <xacro:property name="body_rotation" value="1.57079632679 0 0" />
       <xacro:property name="child_translation" value="0 0 0 " />
-      <xacro:property name="child_rotation" value="3.141 0 ${mounting_rotation}" />
+      <xacro:property name="child_rotation" value="3.14159265359 0 ${mounting_rotation}" />
     </xacro:if>
     <xacro:if value="${mounting_side == 'bottom'}">
       <xacro:property name="body_translation" value="0 0 0" />
       <xacro:property name="body_rotation" value="0 0 ${mounting_rotation}" />
       <xacro:property name="child_translation" value="0 0.024 0.055" />
-      <xacro:property name="child_rotation" value="1.57 0 0" />
+      <xacro:property name="child_rotation" value="1.57079632679 0 0" />
     </xacro:if>
-
 
     <link name="${namespace}_body_link">
       <visual>
@@ -32,7 +31,7 @@
       </visual>
       <collision>
         <geometry>
-         <box size="0.055 0.055 0.078"/> 
+         <box size="0.046 0.055 0.078"/> 
         </geometry>
         <origin xyz="0 0.008 0.039" rpy="0 0 0" />
       </collision>
