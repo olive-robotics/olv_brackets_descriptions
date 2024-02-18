@@ -4,7 +4,7 @@
     <link name="${namespace}_child_link">
       <visual>
         <geometry>
-          <mesh filename="package://olv_connector_descriptions/meshes/olv-xbolt.dae" />
+          <mesh filename="package://olv_brackets_descriptions/meshes/olv-xbolt.dae" />
         </geometry>
         <origin rpy="0 0 0" xyz="0 0 -0.01" />
       </visual>

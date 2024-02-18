@@ -26,7 +26,7 @@
     <link name="${namespace}_body_link">
       <visual>
         <geometry>
-          <mesh filename="package://olv_connector_descriptions/meshes/olv-lbracket.dae" />
+          <mesh filename="package://olv_brackets_descriptions/meshes/olv-lbracket.dae" />
         </geometry>
       </visual>
       <collision>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>olv_connector_descriptions</name>
+  <name>olv_brackets_descriptions</name>
   <version>0.0.1</version>
   <description>Description package for olive connectors</description>
   <maintainer email="benjamin@olive-robotics.com">Benjamin Felbrich</maintainer>
